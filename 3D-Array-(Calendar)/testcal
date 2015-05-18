@@ -1,0 +1,6 @@
+#!/bin/bash
+#$Id$
+
+cal 2 2015 >cal.22015.out
+./jcal 2 2015 >jcal.22015.out
+diff cal.22015.out jcal.22015.out
